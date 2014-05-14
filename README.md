@@ -1,4 +1,4 @@
-# Monokai theme
+# Monokai Neutron
 
 A monokai syntax theme for Atom to work with Neutron UI.
 
