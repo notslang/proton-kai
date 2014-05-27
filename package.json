@@ -2,7 +2,7 @@
   "name": "proton-monokai",
   "theme": "syntax",
   "version": "0.16.0",
-  "private": true,
+  "private": false,
   "description": "A monokai syntax for the Proton UI theme",
   "repository": {
     "type": "git",
