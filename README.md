@@ -1,6 +1,6 @@
 # Proton Monokai
 
-A monokai syntax theme for Atom to work with [Proton UI](https://atom.io/packages/proton-ui).
+A monokai syntax theme for Atom to work with [Proton UI](https://atom.io/packages/proton).
 
 Originally converted from [kevinsawicki](https://github.com/kevinsawicki)'s Monokai [port](https://github.com/kevinsawicki/monokai).
 
