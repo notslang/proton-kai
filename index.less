@@ -19,7 +19,7 @@
   }
 
   .gutter {
-    background-color: darken(@syntax-gutter-background-color, 2%);
+    background-color: @syntax-background-color;
 
     .cursor-line {
       color: @syntax-text-color;
@@ -313,4 +313,8 @@
 
 .grunt-runner-results .grunt-panel-heading[data-status=error]:before {
   color: #F92672;
+}
+
+.list-group .selected:before, .list-tree .selected:before {
+  background: none;
 }
