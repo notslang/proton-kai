@@ -6,7 +6,7 @@
   "description": "A monokai syntax for the Proton UI theme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/simko-io/proton-monokai"
+    "url": "https://github.com/jdsimcoe/proton-monokai"
   },
   "license": "MIT",
   "engines": {

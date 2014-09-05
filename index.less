@@ -188,14 +188,8 @@
 
 // Editor Tweaks
 
-.editor .gutter .line-number {
-  padding-left: 1em;
-
-  &.git-line-added,
-  &.git-line-modified,
-  &.git-line-removed, {
-    padding-left: calc(1em - 2px)
-  }
+.editor .gutter .line-number,
+.editor.react .gutter .line-number {
 
   &.git-line-added {
     border-left: 2px solid #A6E22E;
@@ -282,39 +276,6 @@
   }
 }
 
-// Grunt Runner Styling
-
-.grunt-runner-results .panel-body li {
-  font-size: 13px;
-  line-height: 1.4;
-  border-bottom: none;
-
-  &.text-success {
-    color: #A6E22E !important;
-  }
-
-  &.text-warning {
-    color: #E6DB74 !important;
-  }
-
-  &.text-error {
-    color: #F92672 !important;
-  }
-
-}
-
-.grunt-runner-results .grunt-panel-heading[data-status=ready]:before {
-  color: #A6E22E;
-}
-
-.grunt-runner-results .grunt-panel-heading[data-status=warning]:before {
-  color: #E6DB74;
-}
-
-.grunt-runner-results .grunt-panel-heading[data-status=error]:before {
-  color: #F92672;
-}
-
 .list-group .selected:before, .list-tree .selected:before {
   background: none;
 }
@@ -329,5 +290,4 @@
 .minimap {
   left: 93%;
   width: 7%;
-
 }
