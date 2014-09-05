@@ -1,12 +1,12 @@
 {
-  "name": "proton-monokai",
+  "name": "proton-kai",
   "theme": "syntax",
-  "version": "0.27.0",
+  "version": "0.0.0",
   "private": false,
   "description": "A monokai syntax for the Proton UI theme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jdsimcoe/proton-monokai"
+    "url": "https://github.com/jdsimcoe/proton-kai"
   },
   "license": "MIT",
   "engines": {
