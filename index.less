@@ -1,11 +1,11 @@
 @import 'syntax-variables';
 
-:host, atom-text-editor {
+.atom-text-editor {
   background-color: @syntax-background-color;
   color: @syntax-text-color;
 }
 
-:host, atom-text-editor {
+.atom-text-editor {
   .invisible-character {
     color: @syntax-invisible-character-color;
   }
@@ -188,8 +188,8 @@
 
 // Editor Tweaks
 
-atom-text-editor .gutter .line-number,
-atom-text-editor.react .gutter .line-number {
+:host, atom-text-editor .gutter .line-number,
+:host, atom-text-editor.react .gutter .line-number {
 
   &.git-line-added {
     border-left: 2px solid #A6E22E;
@@ -204,7 +204,7 @@ atom-text-editor.react .gutter .line-number {
   }
 }
 
-atom-text-editor .fold-marker:after {
+.atom-text-editor .fold-marker:after {
   font-size: 1.6em;
   line-height: 0.8;
   width: 1.2em;

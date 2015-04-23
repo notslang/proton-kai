@@ -11,5 +11,25 @@
   "license": "MIT",
   "engines": {
     "atom": ">0.39.0"
+  },
+  "readme": "# Proton Monokai\n\nA monokai syntax theme for Atom to work with [Proton UI](https://atom.io/packages/proton).\n\nOriginally converted from [kevinsawicki](https://github.com/kevinsawicki)'s Monokai [port](https://github.com/kevinsawicki/monokai).\n\n![Screenshot](http://cl.ly/image/2Y3v0S0V3Y04/Image%202014-05-14%20at%207.59.58%20AM.png)\n",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/jdsimcoe/proton-kai/issues"
+  },
+  "homepage": "https://github.com/jdsimcoe/proton-kai",
+  "_id": "proton-kai@0.1.0",
+  "_shasum": "be4a4ac4d9974e78db48e31ecac3e0e17ebb0edb",
+  "_resolved": "file:../d-115320-33185-1gkt674/package.tgz",
+  "_from": "../d-115320-33185-1gkt674/package.tgz",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [],
+    "extensions": {
+      ".json": [
+        "package.json"
+      ]
+    },
+    "folders": []
   }
 }
